@@ -5,28 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f0e3f33-0fbf-4c68-9b79-953e8ea33ee2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/golang.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcodeProblems/ValidParentheses.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../py/.idea/py.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ETairkhan" beforeDir="false" afterPath="$PROJECT_DIR$/../ETairkhan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcodeProblems/RemoveDuplicatesFromSortedArray.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ETairkhan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../c--" beforeDir="false" afterPath="$PROJECT_DIR$/../c--" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../for-fun-java" beforeDir="false" afterPath="$PROJECT_DIR$/../for-fun-java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../golang/.idea/golang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../golang/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../golang/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../golang/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../golang/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../golang/leetcodeProblems/ValidParentheses.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../golang/leetcodeProblems/twoSum.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../golang/main.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../projects-with-html" beforeDir="false" afterPath="$PROJECT_DIR$/../projects-with-html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../py/learnPython" beforeDir="false" afterPath="$PROJECT_DIR$/../py/learnPython" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" url="file://C:/Program Files/Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ptepSkB1Y0MAbGWd7kzGDZGhvr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,15 +50,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
     "Go Build.go build golang.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "C:/Users/zhemp",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/git clone/LeetcodeGO",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
