@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	x := -121
-	fmt.Println(leetcodeProblems.IsPalindrome(x))
+	x := "MCMXCIV"
+	fmt.Println(leetcodeProblems.RomanToInt(x))
 }
