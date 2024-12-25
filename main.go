@@ -5,7 +5,6 @@ import (
 	"golang/leetcodeProblems"
 )
 
-func main() {
-	x := "MCMXCIV"
-	fmt.Println(leetcodeProblems.RomanToInt(x))
+func main(){
+	fmt.Println(leetcodeProblems.LengthOfLastWord(" luffy is still joyboy"))
 }
