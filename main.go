@@ -6,5 +6,7 @@ import (
 )
 
 func main(){
-	fmt.Println(leetcodeProblems.LengthOfLastWord(" luffy is still joyboy"))
+	nums := []int{1,3,5,6}
+	target := 1
+	fmt.Println(leetcodeProblems.SearchInsert(nums,target))
 }
