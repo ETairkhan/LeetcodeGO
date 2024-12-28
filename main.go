@@ -6,5 +6,5 @@ import (
 )
 
 func main(){
-	fmt.Println(leetcodeProblems.IsPowerOfTwo(-16))
+	fmt.Println(leetcodeProblems.AddDigits(38))
 }
