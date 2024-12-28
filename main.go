@@ -6,7 +6,6 @@ import (
 )
 
 func main(){
-	nums := []int{1,3,5,6}
-	target := 1
-	fmt.Println(leetcodeProblems.SearchInsert(nums,target))
+	nums := []int{1,1,1,3,3,4,3,2,4,2 }
+	fmt.Println(leetcodeProblems.ContainsDuplicate(nums))
 }
