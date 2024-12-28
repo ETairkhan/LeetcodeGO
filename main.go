@@ -6,5 +6,6 @@ import (
 )
 
 func main(){
-	fmt.Println(leetcodeProblems.AddDigits(38))
+
+	fmt.Println(leetcodeProblems.MajorityElement(arr))
 }
