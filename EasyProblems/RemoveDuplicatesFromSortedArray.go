@@ -1,4 +1,4 @@
-package leetcodeProblems
+package EasyProblems
 
 func RemoveDuplicates(nums []int) int {
 	if len(nums) == 0 {

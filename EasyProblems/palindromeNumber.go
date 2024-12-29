@@ -1,4 +1,4 @@
-package leetcodeProblems
+package EasyProblems
 
 import (
 	"fmt"
@@ -12,8 +12,8 @@ func IsPalindrome(x int) bool {
 		answer = append(answer, rune(arr[i]))
 	}
 	fmt.Println(answer)
-	for i := len(arr) - 1; i >= 0; i--{
-		if answer[i] != rune(arr[i]){
+	for i := len(arr) - 1; i >= 0; i-- {
+		if answer[i] != rune(arr[i]) {
 			return false
 		}
 	}

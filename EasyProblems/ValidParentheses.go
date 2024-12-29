@@ -1,6 +1,6 @@
-package leetcodeProblems
+package EasyProblems
 
-func isValid(s string) bool {
+func IsValid(s string) bool {
 	arr := make([]rune, len(s))
 	index := 0
 
@@ -18,7 +18,7 @@ func isValid(s string) bool {
 	}
 
 	if index > 0 {
-		return false
+		return true
 	}
 	return true
 }

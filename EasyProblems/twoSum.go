@@ -1,6 +1,6 @@
-package leetcodeProblems
+package EasyProblems
 
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	arr := make([]int, len(nums))
 	for i := 0; i < len(nums); i++ {
 		for j := 0; j < len(nums); j++ {
