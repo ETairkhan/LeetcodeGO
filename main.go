@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	arr := []string{"aog", "d", "do"}
-	fmt.Println(string(EasyProblems.LongestCommonPrefix(arr)))
+	arr := []int{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}
+	fmt.Println(EasyProblems.ContainsDuplicate(arr))
 }
