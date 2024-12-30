@@ -1,4 +1,4 @@
-package leetcodeProblems
+package EasyProblems
 
 import "strconv"
 
@@ -9,5 +9,8 @@ func AddDigits(num int) int {
 		a , _ := strconv.Atoi(string(str[i]))
 		answer += a
 	}
-	return AddDigits(answer)
+	if answer >= 10 {
+		answer = AddDigits(answer)
+	}
+	return answer
 }
