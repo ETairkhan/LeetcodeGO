@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-
-	fmt.Println(leetcodeProblems.IsPowerOfTwo(3))
+	arr := []int{3,2,2,3}
+	fmt.Println(leetcodeProblems.RemoveElement(arr, 3))
 }
