@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(leetcodeProblems.StrStr("abc", "c"))
+	fmt.Println(leetcodeProblems.ConvertDateToBinary("2080-02-29"))
 	
 }

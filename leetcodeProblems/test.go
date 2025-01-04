@@ -1,16 +1,25 @@
 package leetcodeProblems
 
-func StrStr(haystack string, needle string) int {
-	if len(needle) == 0{
-		return 0
+import (
+	"strconv"
+	"strings"
+)
+
+func ConvertDateToBinary(date string) string {
+	dict := strings.Split(date, "-") // Split the date into components
+	answer := ""
+
+	for i := 0; i < len(dict); i++ {
+		num, err := strconv.Atoi(dict[i]) // Convert string to integer
+		if err != nil {
+			return "Error: Invalid input" // Handle error if conversion fails
+		}
+		binary := strconv.FormatInt(int64(num), 2) // Convert integer to binary
+		if i > 0 {
+			answer += "-" // Add a separator between binary components
+		}
+		answer += binary
 	}
-	
-	for i := 0; i <= len(haystack) - len(needle); i++{
-	 str1 := haystack[i:i+len(needle)]
-	  if str1 == needle{
-			return i
-		 
-	  }
-  }
-	return -1
+
+	return answer
 }
