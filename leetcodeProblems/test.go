@@ -11,5 +11,5 @@ for i := 0; i < n; i++ {
   result = append(result, nums[i+n])  // Append y_i
 }
 
-return result
+return result // return ...
 }
