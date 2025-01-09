@@ -1,12 +1,13 @@
 package leetcodeProblems
-func FinalValueAfterOperations(operations []string) int {
-  answer := 0
-  for i := 0; i <len(operations); i++{
-      if operations[i] == "++X" || operations[i] == "X++"{
-          answer++
-      }else if operations[i] =="--X" || operations[i] =="X--"{
-          answer--
+func FindWordsContaining(words []string, x byte) []int {
+    indices := []int{}
+      for i, word := range words {
+          for _, char := range word {
+              if char == rune(x) {
+                  indices = append(indices, i)
+                  break
+              }
+          }
       }
+      return indices
   }
-  return answer
-}

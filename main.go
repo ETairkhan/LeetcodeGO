@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	operations := []string{"--X", "++X", "X++"}
-	fmt.Println(leetcodeProblems.FinalValueAfterOperations(operations))
+	words := []string{"ae", "leet", "e"}
+	fmt.Println(leetcodeProblems.FindWordsContaining(words,'e'))
 }
