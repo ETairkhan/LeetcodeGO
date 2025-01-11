@@ -22,6 +22,6 @@ func CanConstruct(ransomNote string, magazine string) bool {
         }
     }
 
-
+    //return answer
     return answer
 }
